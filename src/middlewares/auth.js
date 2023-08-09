@@ -1,10 +1,9 @@
 const { createAppAuth } = require('@octokit/auth-app');
-const { Configuration, OpenAIApi } = require('openai');
 require('dotenv').config();
 const fs = require('fs');
 
 // Replace with the path to your private key file
-const pem = fs.readFileSync('./waizly-smee.private-key.pem', 'utf8');
+const pem = process.env.GITHUB_PRIVATE_KEY;
 
 // This function creates a JWT that you can use with
 // Axios or any other HTTP client to make requests to
