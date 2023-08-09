@@ -48,7 +48,7 @@ Step by step for install 'Github App':
 1. Clone this repository `git clone https://github.com/cisnatinnov/github-app.git` or use `GitHub Desktop`
 2. Install required depedencies `npm install @octokit/auth-app axios dotenv express fs node-fetch nodemon openai path --save`
 3. Copy paste  your `GitHub App ID, Client ID, Client Secret, Private Keys` and `api-keys` to .env file
-4. run `npm start`
+4. Run `npm start`
 
 
 ## Reference
